@@ -1,21 +1,37 @@
 <div class="bio">
-  
-  <p>
-    I’m Nikos Yannakaronis, a music producer with experience across many
-    different musical styles and creative directions.
-  </p>
-  <p>
-    Over the years, I’ve worked on a wide variety of projects, including music
-    production and sound design, which has shaped a flexible and open-minded
-    approach to sound.
-  </p>
-  <p>
-    My focus is always on the song and the emotion behind it. I enjoy adapting
-    my sound to each project, blending musical ideas with sound design elements,
-    and shaping music in a way that feels intentional and expressive.
-  </p>
-  <p>
-    My portfolio reflects versatility, curiosity, and a strong attention to
-    detail.
-  </p>
+  <button
+    type="button"
+    class="btn btn"
+    (click)="collapse.toggle()"
+    [attr.aria-expanded]="!isCollapsed"
+    aria-controls="collapseExample"
+  >
+    <h3 class="">About</h3>
+  </button>
+
+  <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+    <!-- <div class="card"> -->
+      <!-- <div class="card-body"> -->
+        <p>
+          I’m Nikos Yannakaronis, a music producer with experience across many
+          different musical styles and creative directions.
+        </p>
+        <p>
+          Over the years, I’ve worked on a wide variety of projects, including
+          music production and sound design, which has shaped a flexible and
+          open-minded approach to sound.
+        </p>
+        <p>
+          My focus is always on the song and the emotion behind it. I enjoy
+          adapting my sound to each project, blending musical ideas with sound
+          design elements, and shaping music in a way that feels intentional and
+          expressive.
+        </p>
+        <p>
+          My portfolio reflects versatility, curiosity, and a strong attention
+          to detail.
+        </p>
+      <!-- </div> -->
+    <!-- </div> -->
+  </div>
 </div>

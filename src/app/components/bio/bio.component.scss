@@ -1,5 +1,11 @@
-.bio{
-    // border-radius: 2rem;
+.bio {
+  // border-radius: 2rem;
 
-    font-size: 3vh;
+  font-size: 2vh;
+  button {
+    color: #eeeeee;
+  }
+  .card.card-body {
+    background-color: rgb(185, 185, 185, 0.1);
+  }
 }
