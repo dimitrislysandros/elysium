@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+
+
+*{
+    
+  font-family: 'Libre Caslon Text', serif;
+}
+
+#placeholder{
+    padding:1rem;
+    margin-top:7%;
+    border-radius:1rem;
+     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(185, 185, 185, 0.5));
+    // background-color: rgba(0, 0, 0,0.5);
+    width: 100%;
+}
