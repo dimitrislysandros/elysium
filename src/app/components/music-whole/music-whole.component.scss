@@ -84,6 +84,7 @@ iframe
 div.music-block{
     border-radius: 1rem;
     min-height: 100px;
+    margin-top: 10px;
 
     .genre{
          border-radius: 1rem;
@@ -125,7 +126,7 @@ div.music-block:hover, div.music-block:active{
     width: 100%;
     height: 250px;
     z-index: 900000;
-    background-color: #b9b9b9;
+    background-color: rgba(0,0,0,0.5);
     cursor: pointer;
     span,p{
       min-width: 100%;
