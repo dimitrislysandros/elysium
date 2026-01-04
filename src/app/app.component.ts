@@ -14,7 +14,8 @@ import { MusicWholeComponent } from './components/music-whole/music-whole.compon
     MusicComponent,
     BioComponent,
     NavbarComponent,
-    MusicWholeComponent
+    MusicWholeComponent,
+
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
